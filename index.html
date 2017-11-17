@@ -5,17 +5,30 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
 	<meta name="theme-color" content="#000000">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="shortcut icon" href="/favicon.ico">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<title>React App</title>
-	<link href="https://marjoballabani.github.io/ballabani.me/repo/static/css/main.ebb8f843.css" rel="stylesheet">
+	<link href="/static/css/main.84262c76.css" rel="stylesheet">
 </head>
 
 <body>
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 	<div id="root"></div>
-	<script type="text/javascript" src="https://marjoballabani.github.io/ballabani.me/repo/static/js/main.e4ccec99.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/reactfire/1.0.0/reactfire.min.js"></script>
+	<script>
+		var config = {
+			apiKey: "AIzaSyBRAzMLCFuyCXu63ZoLq0VPP9w055zAjGg",
+			databaseURL: "https://bugfit-e202e.firebaseio.com",
+			authDomain: "bugfit-e202e.firebaseapp.com",
+			storageBucket: "<bugfit-e202e.appspot.com"
+		};
+		firebase.initializeApp(config)
+	</script>
+	<script type="text/javascript" src="/static/js/main.37389d29.js"></script>
 </body>
 
 </html>
